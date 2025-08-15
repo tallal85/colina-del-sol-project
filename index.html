@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Graffiti-to-Murals | Colina del Sol</title>
   <meta name="description" content="Transforming vandalized spaces into vibrant public art for a safer, stronger Colina del Sol.">
-  <link rel="stylesheet" href="css/style.css">
+  <!-- NOTE: using root paths so your CSS/JS load -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
@@ -92,7 +93,6 @@
       <p class="lang en">Explore hotspots of graffiti incidents, candidate mural walls, and areas with community assets.</p>
       <p class="lang es">Explora concentraciones de incidentes de graffiti, muros candidatos y zonas con activos comunitarios.</p>
 
-      <!-- Your ArcGIS map -->
       <div class="iframe-wrap">
         <iframe
           title="ArcGIS Map – Colina del Sol"
@@ -113,7 +113,6 @@
       <h2 class="lang en">Advocacy Video (6 min)</h2>
       <h2 class="lang es">Video de Incidencia (6 min)</h2>
 
-      <!-- Your YouTube video -->
       <div class="iframe-wrap">
         <iframe
           src="https://www.youtube.com/embed/svTEaiuUYOM?si=UF1YFy5fmtoUz4S3"
@@ -216,6 +215,7 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<!-- NOTE: using root path for JS -->
+<script src="main.js"></script>
 </body>
 </html>
